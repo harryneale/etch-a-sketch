@@ -2,10 +2,41 @@
 
 <html>
     <head>
-
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
+        <section id="left" class="left">
+            <header class="header">
+                <h1>Etch-a-Sketch</h1>
+            </header>
+
+            <div id="userInput">
+                <input id="input" type="text" placeholder="No. rows/columns (default is 16)..."> 
+                <button id="goBtn">Go</button>
+            </div>
+
+            <div id="btns" class="btns">
+                <h3>Colours</h3>
+                <button id="originalColors">Original</button>
+                <button id="invertColors">Invert</button>
+                <button id="rainbowColors">Rainbow</button>
+                <h3>Reset Grid</h3>
+                <button id="resetBtn">Reset</button>
+            </div>
+
+            <div id="reset">
+            </div>
+        </section>
+
+        <section id="right" class="right">
+            <div id="container">
+                <h1>Hello</h1>
+            </div>
+        </section>
 
     </body>
 

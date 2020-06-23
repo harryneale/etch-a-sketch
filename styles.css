@@ -1,0 +1,134 @@
+* {
+
+}
+
+.left {
+    float: left;
+    width: 35vw;
+    height: 98vh;
+    border: 1px solid black;
+}
+
+.right {
+    float: right;
+    width: 60vw;
+    height: 98vh;
+    border: 1px solid gray;
+}
+
+.button {
+    font-family: sans-serif;
+}
+
+.header {
+   height: 25%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Raleway Dots', cursive;
+   font-size: 35px;
+   margin-bottom: 5%;
+}
+
+.header h1 {
+   height: 25%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Raleway Dots', cursive;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   transition: all .3s ease-in-out;
+}
+
+.header h1:hover {
+   color: orange;
+   -moz-text-shadow: 8px 8px 12px #ccc;
+   -webkit-text-shadow: 8px 8px 12px #ccc;
+   text-shadow: 8px 8px 12px #ccc;
+}
+
+#userInput {
+   display: flex;
+   height: 15%;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: 0 auto 10% auto;
+}
+
+#userInput input {
+    height: 40px;
+    width: 65%;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+}
+
+#userInput input:hover {
+    -moz-box-shadow:  2px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 2px 3px 5px 6px #ccc;
+    box-shadow:         2px 3px 5px 6px #ccc;
+    width: 70%;
+}
+
+#goBtn {
+    height: 45px;
+    background-color: wheat;
+    border:none;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    width: 10%;
+}
+
+#goBtn:hover {
+    -moz-box-shadow:  2px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 2px 3px 5px 6px #ccc;
+    box-shadow:         2px 3px 5px 6px #ccc;
+    width: 15%;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btns button {
+    background-color: wheat;
+    background-color: wheat;
+    border:none;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 100%;
+}
+
+.btns button:hover {
+    -moz-box-shadow:  2px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 2px 3px 5px 6px #ccc;
+    box-shadow:         2px 3px 5px 6px #ccc;
+    width: 110%;
+}
+
+.btns h3 {
+    text-align: center;
+    text-decoration: underline dotted;
+    text-decoration-thickness: 1px;
+    font-family: 'Raleway Dots', cursive;
+    transition: all .3s ease-in-out;
+}
+
+.btns h3:hover {
+    color: orange;
+   -moz-text-shadow: 8px 8px 12px #ccc;
+   -webkit-text-shadow: 8px 8px 12px #ccc;
+   text-shadow: 8px 8px 12px #ccc;
+}

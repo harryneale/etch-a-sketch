@@ -10,4 +10,4 @@ Include:
 - Prompt when resetting grid to dictate how many squares on the grid
 
 GitHub Pages link:
-TBC
+https://harryneale.github.io/etch-a-sketch/

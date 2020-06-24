@@ -4,6 +4,7 @@
 
 .left {
     float: left;
+    position: fixed;
     width: 35vw;
     height: 98vh;
     border: 1px solid black;
@@ -15,6 +16,8 @@
     height: 98vh;
     border: 1px solid gray;
 }
+
+/* Control section on left */
 
 .button {
     font-family: sans-serif;
@@ -131,4 +134,25 @@
    -moz-text-shadow: 8px 8px 12px #ccc;
    -webkit-text-shadow: 8px 8px 12px #ccc;
    text-shadow: 8px 8px 12px #ccc;
+}
+
+/* Grid section on right */
+
+#container {
+    margin-top: 25px;
+    margin-right: 40px;
+    display: inline-grid;
+    grid-template-columns: repeat(16,2fr);
+    grid-template-rows: repeat(16,2fr);
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 575px;
+    height: 90vh;
+}
+
+.square {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 1px solid black;
 }

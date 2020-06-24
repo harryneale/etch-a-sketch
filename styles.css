@@ -151,8 +151,11 @@
 }
 
 .square {
-    display: flex;
-    justify-content: space-evenly;
     background-color: white;
+    border: 1px solid black;
+}
+
+.color {
+    background-color: black;
     border: 1px solid black;
 }

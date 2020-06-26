@@ -12,6 +12,9 @@
 
 .right {
     float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 60vw;
     height: 98vh;
     border: 1px solid gray;
@@ -141,9 +144,11 @@
 #container {
     margin-top: 25px;
     margin-right: 40px;
-    display: inline-grid;
+    display: grid;
     grid-template-columns: repeat(16,2fr);
     grid-template-rows: repeat(16,2fr);
+    justify-items: center;
+    align-items: center;
     border: 5px solid black;
     border-radius: 5px;
     width: 575px;

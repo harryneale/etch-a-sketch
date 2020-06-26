@@ -155,6 +155,11 @@
     border: 1px solid black;
 }
 
+.square:hover {
+    background-color: black;
+    border: 1px solid black;
+}
+
 .color {
     background-color: black;
     border: 1px solid black;

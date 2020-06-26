@@ -5,8 +5,9 @@
 .left {
     float: left;
     position: fixed;
-    width: 35vw;
+    width: 40%;
     height: 98vh;
+    margin-left: auto;
 }
 
 .right {
@@ -14,7 +15,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 60vw;
+    width: 55%;
     height: 98vh;
 }
 
@@ -29,7 +30,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   font-family: 'Raleway Dots', cursive;
+   font-family: 'Love Ya Like A Sister', cursive;
    font-size: 35px;
    margin-bottom: 5%;
 }
@@ -39,7 +40,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   font-family: 'Raleway Dots', cursive;
+   font-family: 'Love Ya Like A Sister', cursive;
    width: 100%;
    margin-left: auto;
    margin-right: auto;
@@ -71,6 +72,8 @@
     border-radius: 5px;
     transition: width 0.3s ease-in-out;
     padding-left: 5px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 17px;
 }
 
 #userInput input:hover {
@@ -87,6 +90,8 @@
     border-radius: 5px;
     transition: all .3s ease-in-out;
     width: 10%;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 20px;
 }
 
 #goBtn:hover {
@@ -114,6 +119,8 @@
     margin-bottom: 10px;
     height: 50px;
     width: 100%;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 20px;
 }
 
 .btns button:hover {
@@ -127,8 +134,9 @@
     text-align: center;
     text-decoration: underline dotted;
     text-decoration-thickness: 1px;
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Love Ya Like A Sister', cursive;
     transition: all .3s ease-in-out;
+    font-size: 25px;
 }
 
 .btns h3:hover {
@@ -158,5 +166,8 @@
     height: 100%;
     width: 100%;
     border: 1px solid black;
-    background-color: yellow;
+    background-color:honeydew;
+    border-style: dotted;
+    border-radius: 2px;
+    
 }

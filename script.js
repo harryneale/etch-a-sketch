@@ -3,14 +3,13 @@ const gridSize = document.querySelector(".uInput");
 const go = document.querySelector("#goBtn");
 const clearBoard = document.querySelector("#resetBtn");
 
-
 // Set default grid
 function defaultGrid() {
 
     for (let i = 0; i < 256; i++) {
         const div = document.createElement('div');
         div.classList.add("square");
-        div.addEventListener("mouseenter", function() {
+        div.addEventListener("mouseenter", function () {
             div.style.backgroundColor = 'black';
         })
         grid.appendChild(div);
@@ -39,7 +38,7 @@ function newGrid() {
     }
 };
 
-// Add event listener to user input button
+// Add event listener to set new grid
 go.addEventListener("click", newGrid);
 
 // Add reset function to clear board and reset default grid size
@@ -48,6 +47,7 @@ clearBoard.addEventListener("click", function() {
     gridSize.value = '';
     grid.style.setProperty("grid-template-columns",`repeat(16, 2fr)`);
     grid.style.setProperty("grid-template-rows", `repeat(16, 2fr)`);
+    grid.animated;
     defaultGrid();
 });
 

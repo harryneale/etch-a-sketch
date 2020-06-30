@@ -5,11 +5,12 @@ const clearBoard = document.querySelector("#resetBtn");
 
 // Set default grid
 function defaultGrid() {
-
     for (let i = 0; i < 256; i++) {
-        let div = document.createElement('div');
+        const div = document.createElement('div');
         div.classList.add("square");
-        div.style.backgroundColor = 'black';
+        div.addEventListener("mouseenter", function() {
+            div.style.backgroundColor = 'black';
+        })
         grid.appendChild(div);
     };
 };

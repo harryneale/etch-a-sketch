@@ -11,7 +11,6 @@ function defaultGrid() {
         div.classList.add("square");
         grid.appendChild(div);
     };
-    blackBg();
 };
 
 function blackBg() {

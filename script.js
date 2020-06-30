@@ -12,7 +12,7 @@ function defaultGrid() {
             div.style.backgroundColor = 'black';
         })
         grid.appendChild(div);
-    };
+    }
 };
 
 // Set new grid size based on user input

@@ -7,14 +7,17 @@ const clearBoard = document.querySelector("#resetBtn");
 function defaultGrid() {
 
     for (let i = 0; i < 256; i++) {
-        const div = document.createElement('div');
+        let div = document.createElement('div');
         div.classList.add("square");
-        div.addEventListener("mouseenter", function () {
-            div.style.backgroundColor = 'black';
-        })
         grid.appendChild(div);
     };
+    blackBg();
 };
+
+function blackBg() {
+    let bg = document.getElementById('#square');    
+    square.style.backgroundColor = 'black';
+}
 
 // Set new grid size based on user input
 function newGrid() {

@@ -9,14 +9,10 @@ function defaultGrid() {
     for (let i = 0; i < 256; i++) {
         let div = document.createElement('div');
         div.classList.add("square");
+        div.style.backgroundColor = 'black';
         grid.appendChild(div);
     };
 };
-
-function blackBg() {
-    let bg = document.getElementById('#square');    
-    square.style.backgroundColor = 'black';
-}
 
 // Set new grid size based on user input
 function newGrid() {

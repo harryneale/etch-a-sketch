@@ -35,7 +35,7 @@ function initialGrid() {
 initialGrid();
 
 // Add reset function to clear board and reset default grid size
-clearBoard.addEventListener("click", function resetAll() {
+clearBoard.addEventListener("click", function() {
     grid.innerHTML = '';
     gridSize.value = '';
     grid.style.setProperty("grid-template-columns",`repeat(16, 2fr)`);
@@ -55,7 +55,13 @@ function newGrid() {
         "grid-template-rows",
         `repeat(${gridSize.value}, 2fr)`
     );
-    initialGrid();
+    for (let i = 0; i < gridSize.value * gridSize.value; i++) {
+        const div = document.createElement('div');
+        div.classList.add("square");
+        grid.appendChild(div);
+    };
+    blackColor();
+    gridSize.value = '';
 };
 
 // Add event listener to set new grid
@@ -94,17 +100,14 @@ function eraseDrawing() {
         
 rbowBtn.addEventListener('click', () => {
     randomRGB();
-    resetAll();
 });
         
 blkBtn.addEventListener('click', () => {
     blackColor();
-    resetAll();
 });
 
 ersBtn.addEventListener('click', () => {
     eraseDrawing();
-    resetAll();
 });
 
 

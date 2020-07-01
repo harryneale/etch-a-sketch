@@ -174,3 +174,11 @@
 .square:hover {
     background-color: blue;
 }
+
+.square-color {
+    background-color: black;
+}
+
+.square-eraser {
+    background-color: honeydew;
+}
